@@ -1,0 +1,17 @@
+export interface Entity {
+  id: number,
+  name: string,
+  hp: number,
+  maxHP?: number,
+  mp: number,
+  str: number,
+  int: number,
+  def: number,
+  res: number,
+  spd: number,
+  luck: number,
+  race: number,
+  class: number,
+  rarity: number,
+  lastAction?: string,
+}
